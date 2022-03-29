@@ -106,12 +106,15 @@ $container->set(
 
 
 
+//Event Mangement -----------------------------------------start ------------------------------------------------------
+
+$eventsManager = new EventsManager();
 
 $container->set(
     'db',
-    function () {
+    function () use ($eventsManager) {
         $config = $this->get('config');
-        return new Mysql(
+        $connection = new Mysql(
 
             [
                 'host'     => $config->db->host,
@@ -120,11 +123,11 @@ $container->set(
                 'dbname'   => $config->db->dbname,
             ]
         );
+
+        $connection->setEventsManager($eventsManager);
+        return $connection;
     }
 );
-
-//Event Mangement -----------------------------------------start ------------------------------------------------------
-$eventsManager = new EventsManager();
 
 $eventsManager->attach(
     'notification',
@@ -135,6 +138,7 @@ $eventsManager->attach(
 $eventsManager->attach(
     'db:afterQuery',
     function (Event $event, $connection) use ($logger) {
+        // die('db');
         $logger->error($connection->getSQLStatement());
     }
 );
@@ -143,9 +147,10 @@ $eventsManager->attach(
 
 
 $container->set(
-    'eventsManager',
+    'EventsManager',
     $eventsManager,
 );
+
 
 
 $application = new Application($container);

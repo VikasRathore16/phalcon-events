@@ -1,1 +1,38 @@
 [2022-03-29T11:58:02+00:00][info] Before notification. Product Added
+[2022-03-29T12:27:40+00:00][info] Before notification. Product Added
+[2022-03-29T12:28:24+00:00][info] Before notification. Product Added
+[2022-03-29T12:40:02+00:00][info] Before notification. Product Added
+[2022-03-29T12:43:42+00:00][info] Before notification. Product Added
+[2022-03-29T12:44:11+00:00][info] Before notification. Product Added
+[2022-03-29T12:44:24+00:00][info] Before notification. Product Added
+[2022-03-29T12:44:33+00:00][info] Before notification. Product Added
+[2022-03-29T12:44:53+00:00][info] Before notification. Product Added
+[2022-03-29T12:45:15+00:00][info] Before notification. Product Added
+[2022-03-29T12:45:37+00:00][info] Before notification. Product Added
+[2022-03-29T12:56:50+00:00][info] Before notification. Product Added
+[2022-03-29T12:58:18+00:00][info] Before notification. Product Added
+[2022-03-29T12:58:44+00:00][info] Before notification. Product Added
+[2022-03-29T12:59:07+00:00][info] Before notification. Product Added
+[2022-03-29T12:59:12+00:00][info] Before notification. Product Added
+[2022-03-29T12:59:24+00:00][info] Before notification. Order Added
+[2022-03-29T12:59:33+00:00][info] Before notification. Order Added
+[2022-03-29T12:59:35+00:00][info] Before notification. Order Added
+[2022-03-29T12:59:38+00:00][info] Before notification. Order Added
+[2022-03-29T12:59:44+00:00][info] Before notification. Order Added
+[2022-03-29T12:59:47+00:00][info] Before notification. Order Added
+[2022-03-29T13:13:29+00:00][info] Before notification. Order Added
+[2022-03-29T13:14:31+00:00][info] Before notification. Order Added
+[2022-03-29T13:14:31+00:00][info] Before notification. Order Added
+[2022-03-29T13:14:31+00:00][info] Before notification. Order Added
+[2022-03-29T13:14:32+00:00][info] Before notification. Order Added
+[2022-03-29T13:14:32+00:00][info] Before notification. Order Added
+[2022-03-29T13:17:29+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-29T13:17:29+00:00][error] DESCRIBE `products`
+[2022-03-29T13:17:29+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-29T13:17:29+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'orders' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-29T13:17:29+00:00][error] DESCRIBE `orders`
+[2022-03-29T13:17:29+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-29T13:17:29+00:00][error] DESCRIBE `settings`
+[2022-03-29T13:17:29+00:00][error] SELECT `settings`.`id`, `settings`.`title_optimization`, `settings`.`default_price`, `settings`.`default_stock`, `settings`.`default_zipcode` FROM `settings` WHERE `settings`.`id` = 1
+[2022-03-29T13:17:29+00:00][info] Before notification. Order Added
+[2022-03-29T13:17:29+00:00][error] INSERT INTO `orders` (`customer_name`, `customer_address`, `zipcode`, `product`, `quantity`) VALUES (?, ?, ?, ?, ?)

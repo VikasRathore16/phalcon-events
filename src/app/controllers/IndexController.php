@@ -35,9 +35,10 @@ class IndexController extends Controller
             );
 
             $newProduct->save();
-            $eventsManager = $this->di->get('eventsManager');
+            $eventsManager = $this->di->get('EventsManager');
             $settings = Settings::find(1);
             $this->view->event =   $eventsManager->fire('notification:beforesend', $newProduct, $settings);
+            // $eventsManager->fire('db:afterQuery');
             $success = $this->view->event->save();
             if ($success) {
                 $this->view->msg = "<h6 class='alert alert-success w-75 container text-center'>Added Successfully</h6>";
@@ -75,7 +76,7 @@ class IndexController extends Controller
             );
             $this->view->order = $newOrder;
             $newOrder->save();
-            $eventsManager = $this->di->get('eventsManager');
+            $eventsManager = $this->di->get('EventsManager');
             $settings = Settings::find(1);
             $this->view->event =   $eventsManager->fire('notification:beforesend', $newOrder, $settings);
             $success = $this->view->event->save();

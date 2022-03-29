@@ -17,10 +17,10 @@ class NotificationListeners extends Injectable
     {
         $logger = $this->di->get('logger');
         
-        if ($addarr->customer_name != '') {
+        if (isset($addarr->customer_name)) {
             $logger->info('Before notification. Order Added');
         }
-        if ($addarr->product_name != '') {
+        if (isset($addarr->product_name)) {
             $logger->info('Before notification. Product Added');
         }
 
@@ -33,7 +33,7 @@ class NotificationListeners extends Injectable
         if ($settings[0]->title_optimization == 'Y') {
             $addarr->product_name = "$addarr->product_name" . "$addarr->tags";
         }
-        if ($addarr->zipcode == '') {
+        if (isset($addarr->zipcode) && $addarr->zipcode == '') {
             $addarr->zipcode = $settings[0]->default_zipcode;
         }
         return $addarr;
