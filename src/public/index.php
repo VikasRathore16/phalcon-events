@@ -16,7 +16,7 @@ use Phalcon\Logger\Adapter\Stream;
 use Phalcon\Events\Event;
 use Phalcon\Events\Manager as EventsManager;
 
-// use Phalcon\Db\Adapter\Pdo\Mysql as DbAdapter;
+
 
 
 // Define some absolute path constants to aid in locating resources
@@ -66,11 +66,6 @@ $loader->registerNamespaces(
     ]
 );
 
-$loader->registerClasses(
-    [
-        'Settings' => APP_PATH . '/models/Settings.php',
-    ]
-);
 $loader->register();
 
 // Loader---------------------------------------------ends --------------------------------------------

@@ -36,7 +36,7 @@
         $allproducts = array();
         foreach ($products as $product) {
             $allproducts[$product->product_name] = $product->product_name;
-            // print_r($product->product_name);
+            
         }
 
         echo $this->tag->select(['product', $allproducts, 'class' => 'form-control col-6']) ?>

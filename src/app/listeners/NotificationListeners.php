@@ -16,7 +16,7 @@ class NotificationListeners extends Injectable
     public function beforeSend(Event $event, $addarr, $settings)
     {
         $logger = $this->di->get('logger');
-        // $logger->info("Before notification. ".json_encode($addarr)."");
+        
         if ($addarr->customer_name != '') {
             $logger->info('Before notification. Order Added');
         }

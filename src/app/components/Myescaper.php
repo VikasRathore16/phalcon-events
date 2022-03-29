@@ -19,8 +19,6 @@ class Myescaper
             $arr[$key] = $this->escaper->escapeHtml($value);
 
             if ($value == '') {
-                // $eventsManager = $this->di->get('eventsManager');
-                // $eventsManager->fire('notification:beforesend', $this);
                 $arr[$key] = '';
             }
         }
