@@ -1,0 +1,39 @@
+<?php
+// print_r($products);
+
+if ($products->count() > 0) {
+?>
+
+    <h2 class='container text-center mt-4'>All Products</h2>
+    <table class="table table-bordered table-hover container mt-5">
+        <thead class="thead-light">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Tags</th>
+                <th>Price</th>
+                <th>Stocks</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="3">Products quantity: <?php echo $products->count(); ?></td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <?php foreach ($products as $product) { ?>
+                <tr>
+                    <td><?php echo $product->product_id; ?></td>
+                    <td><?php echo $product->product_name; ?></td>
+                    <td><?php echo $product->description; ?></td>
+                    <td><?php echo $product->tags; ?></td>
+                    <td><?php echo $product->price; ?></td>
+                    <td><?php echo $product->stocks; ?></td>
+
+                </tr>
+            <?php } ?>
+        </tbody>
+    </table>
+<?php
+}

@@ -1,0 +1,39 @@
+<?php
+// print_r($orders);
+
+if ($orders->count() > 0) {
+?>
+
+    <h2 class='container text-center mt-4'>All Products</h2>
+    <table class="table table-bordered table-hover container mt-5">
+        <thead class="thead-light">
+            <tr>
+                <th>Id</th>
+                <th>Customer Name</th>
+                <th>Customer Address</th>
+                <th>Zipcode</th>
+                <th>Products</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="3">Order quantity: <?php echo $orders->count(); ?></td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <?php foreach ($orders as $order) { ?>
+                <tr>
+                    <td><?php echo $order->order_id; ?></td>
+                    <td><?php echo $order->customer_name; ?></td>
+                    <td><?php echo $order->customer_address; ?></td>
+                    <td><?php echo $order->zipcode; ?></td>
+                    <td><?php echo $order->product; ?></td>
+                    <td><?php echo $order->quantity; ?></td>
+
+                </tr>
+            <?php } ?>
+        </tbody>
+    </table>
+<?php
+}

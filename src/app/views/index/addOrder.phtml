@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Order</title>
+</head>
+
+<body class='container text-center mt-5 border'>
+    <h2 class='alert alert-success mt-4'>Add Order</h2>
+    </h2>
+    <?php
+    if(isset($msg)){
+        echo $msg;
+    };
+    ?>
+    <?php echo $this->tag->form(['', 'class' => 'my-5']); ?>
+    <p class="row">
+        <label for="name" class='label col-2 mx-5'>Customer Name</label>
+        <?php echo $this->tag->textField(['customer_name', 'class' => 'form-control col-6']) ?>
+    </p>
+    <p class="row">
+        <label for="address" class='label col-2 mx-5'>Customer Address</label>
+        <?php echo $this->tag->textField(['customer_address', 'class' => 'form-control col-6']) ?>
+    </p>
+    <p class="row">
+        <label for="zipcode" class='label col-2 mx-5'>Zipcode </label>
+        <?php echo $this->tag->textField(['zipcode', 'class' => 'form-control col-6']) ?>
+    </p>
+    <p class="row">
+        <label for="products" class='label col-2 mx-5'>Products</label>
+        <?php
+
+        $allproducts = array();
+        foreach ($products as $product) {
+            $allproducts[$product->product_name] = $product->product_name;
+            // print_r($product->product_name);
+        }
+
+        echo $this->tag->select(['product', $allproducts, 'class' => 'form-control col-6']) ?>
+    </p>
+
+    <p class="row">
+        <label for="quantity" class='label col-2 mx-5'>Quantity</label>
+        <?php echo $this->tag->textField(['quantity', 'class' => 'form-control col-6']) ?>
+    </p>
+    <p>
+        <?php echo $this->tag->submitButton(["Add Order", 'class' => 'btn  btn-primary mx-5']); ?>
+    </p>
+    <?php echo $this->tag->endForm(); ?>
+</body>
+
+</html>
