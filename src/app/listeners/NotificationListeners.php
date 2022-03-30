@@ -16,7 +16,7 @@ class NotificationListeners extends Injectable
     public function beforeSend(Event $event, $addarr, $settings)
     {
         $logger = $this->di->get('logger');
-        
+
         if (isset($addarr->customer_name)) {
             $logger->info('Before notification. Order Added');
         }
@@ -37,5 +37,20 @@ class NotificationListeners extends Injectable
             $addarr->zipcode = $settings[0]->default_zipcode;
         }
         return $addarr;
+    }
+
+    public function beforeHandleRequest(Event $event, \Phalcon\Mvc\Application $application)
+    {
+        $aclFile = APP_PATH . '/security/acl.cache';
+        if (true === is_file($aclFile)) {
+            $acl = unserialize(file_get_contents($aclFile));
+            $role = $application->request->get('role');
+            if (!$role || true !== $acl->isAllowed($role, 'index', 'index')) {
+                echo 'Access denied :(';
+                
+            } else {
+                echo 'Access grant :(';
+            }
+        }
     }
 }

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class='container mt-5'>
+    <?php  echo $this->tag->linkTo(['acl/addRole','Add Role','class'=>'p-5 m-5 btn btn-primary'])
+    ?>
+    <?php  echo $this->tag->linkTo(['acl/addComponent','Add Component','class'=>'p-5 m-5 btn btn-primary'])
+    ?>
+    <?php  echo $this->tag->linkTo(['acl/allow','Allow Role','class'=>'p-5 m-5 btn btn-primary'])
+    ?>
+ 
+</body>
+</html>

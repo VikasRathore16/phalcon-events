@@ -143,7 +143,11 @@ $eventsManager->attach(
     }
 );
 
-//Event Mangement -----------------------------------------ends ------------------------------------------------------
+
+$eventsManager->attach(
+    'application:beforeHandleRequest',
+    new \App\Listeners\NotificationListeners()
+);
 
 
 $container->set(
@@ -152,18 +156,15 @@ $container->set(
 );
 
 
+//Event Mangement -----------------------------------------ends ------------------------------------------------------
+
+
+
+
 
 $application = new Application($container);
+// $application->setEventsManager($eventsManager);
 
-// $container->set(
-//     'mongo',
-//     function () {
-//         $mongo = new MongoClient();
-
-//         return $mongo->selectDB('phalt');
-//     },
-//     true
-// );
 
 //container ------------------------------------------------ends ------------------------------------------------------
 

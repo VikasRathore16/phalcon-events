@@ -1,3 +1,16 @@
+<?php
+// $dir    = APP_PATH . '/controllers';
+// // $files1 = scandir($dir);
+// $files2 = scandir($dir, 1);
+
+// // print_r($files1);
+// echo "<pre>";
+// print_r($files2);
+// print_r(explode('Controller',$files2[0]));
+// echo "</pre>";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +24,7 @@
 <body>
     <nav class="header">
         <div class="row">
-            <div class="col-1"></div>
+       
             <div class="col-2">
                 <?php echo $this->tag->linkTo('index/productList', 'Products List') ?>
             </div>
@@ -30,7 +43,11 @@
                 <?php echo $this->tag->linkTo('index/settings', 'Settings') ?>
 
             </div>
-            <div class="col-1"></div>
+            <div class="col-2">
+                <?php echo $this->tag->linkTo('acl', 'Acl') ?>
+
+            </div>
+        
         </div>
     </nav>
 </body>
