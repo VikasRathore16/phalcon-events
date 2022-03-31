@@ -7,11 +7,11 @@
     <title>Document</title>
 </head>
 <body class='container mt-5'>
-    <?php  echo $this->tag->linkTo(['acl/addRole','Add Role','class'=>'p-5 m-5 btn btn-primary'])
+    <?php  echo $this->tag->linkTo(['acl/addRole?role=Admin','Add Role','class'=>'p-5 m-5 btn btn-primary'])
     ?>
-    <?php  echo $this->tag->linkTo(['acl/addComponent','Add Component','class'=>'p-5 m-5 btn btn-primary'])
+    <?php  echo $this->tag->linkTo(['acl/addComponent?role=Admin','Add Component','class'=>'p-5 m-5 btn btn-primary'])
     ?>
-    <?php  echo $this->tag->linkTo(['acl/allow','Allow Role','class'=>'p-5 m-5 btn btn-primary'])
+    <?php  echo $this->tag->linkTo(['acl/allow?role=Admin','Allow Role','class'=>'p-5 m-5 btn btn-primary'])
     ?>
  
 </body>

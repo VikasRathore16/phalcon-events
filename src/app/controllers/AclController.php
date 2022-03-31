@@ -96,7 +96,6 @@ class AclController extends Controller
                 )
                 ->execute();
 
-            // print_r($permission);
 
             if (count($permission) < 1) {
                 $permission = new Permissions();
@@ -108,9 +107,38 @@ class AclController extends Controller
                         'action'
                     ]
                 );
+
                 $success = $permission->save();
-                echo "da";
-                // print_r($permission);
+                $aclFile = APP_PATH . '/security/acl.cache';
+                print_r($aclFile);
+                if ($success) {
+                    print_r('success');
+                    if (true !== is_file($aclFile)) {
+                        print_r('success');
+                        $acl = new Memory();
+                        $permissions = Permissions::find();
+                        // print_r($permissions[0]->role);
+                        foreach ($permissions as $permission) {
+                            // print_r($permission->role);
+                            $acl->addRole($permission->role);
+                            if ($permission->action == "*") {
+                                continue;
+                            }
+                            $acl->addComponent(
+                                $permission->component,
+                                $permission->action
+                            );
+                            $acl->allow($permission->role, $permission->component, $permission->action);
+                        }
+                        $acl->allow('admin', '*', "*");
+                        file_put_contents(
+                            $aclFile,
+                            serialize($acl)
+                        );
+                    } else {
+                        $acl = unserialize(file_get_contents($aclFile));
+                    }
+                }
             }
         }
     }

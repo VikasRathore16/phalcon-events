@@ -163,7 +163,7 @@ $container->set(
 
 
 $application = new Application($container);
-// $application->setEventsManager($eventsManager);
+$application->setEventsManager($eventsManager);
 
 
 //container ------------------------------------------------ends ------------------------------------------------------

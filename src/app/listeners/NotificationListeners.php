@@ -45,11 +45,14 @@ class NotificationListeners extends Injectable
         if (true === is_file($aclFile)) {
             $acl = unserialize(file_get_contents($aclFile));
             $role = $application->request->get('role');
-            if (!$role || true !== $acl->isAllowed($role, 'index', 'index')) {
+            if (!$role || true !== $acl->isAllowed($role, 'Secure', 'eventAction')) {
                 echo 'Access denied :(';
-                
+                echo "<pre>";
+                print_r($acl);
+                echo "</pre>";
+                die;
             } else {
-                echo 'Access grant :(';
+                echo 'Access grant :)';
             }
         }
     }
