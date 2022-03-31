@@ -1,4 +1,5 @@
 # phalcon-acl
+database file = src/app/db/events.sql
 
 for Phalcon acl first run url 
 
