@@ -3834,3 +3834,102 @@
 [2022-03-31T09:05:16+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
 [2022-03-31T09:05:16+00:00][error] DESCRIBE `permissions`
 [2022-03-31T09:05:16+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions`
+[2022-03-31T09:31:55+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:31:55+00:00][error] DESCRIBE `products`
+[2022-03-31T09:31:55+00:00][error] INSERT INTO `products` (`product_name`, `description`, `tags`, `price`, `stocks`) VALUES (?, ?, ?, ?, ?)
+[2022-03-31T09:31:55+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:31:55+00:00][error] DESCRIBE `settings`
+[2022-03-31T09:31:55+00:00][error] SELECT `settings`.`id`, `settings`.`title_optimization`, `settings`.`default_price`, `settings`.`default_stock`, `settings`.`default_zipcode` FROM `settings` WHERE `settings`.`id` = 1
+[2022-03-31T09:31:55+00:00][info] Before notification. Product Added
+[2022-03-31T09:31:55+00:00][error] UPDATE `products` SET `product_name` = ?, `description` = ?, `tags` = ?, `price` = ?, `stocks` = ? WHERE `product_id` = ?
+[2022-03-31T09:32:07+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:32:07+00:00][error] DESCRIBE `products`
+[2022-03-31T09:32:07+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:32:07+00:00][error] DESCRIBE `settings`
+[2022-03-31T09:32:07+00:00][error] SELECT `settings`.`id`, `settings`.`title_optimization`, `settings`.`default_price`, `settings`.`default_stock`, `settings`.`default_zipcode` FROM `settings` WHERE `settings`.`id` = 1
+[2022-03-31T09:32:07+00:00][info] Before notification. Product Added
+[2022-03-31T09:32:07+00:00][error] INSERT INTO `products` (`product_name`, `description`, `tags`, `price`, `stocks`) VALUES (?, ?, ?, ?, ?)
+[2022-03-31T09:32:24+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:32:24+00:00][error] DESCRIBE `products`
+[2022-03-31T09:32:24+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T09:32:52+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:32:52+00:00][error] DESCRIBE `products`
+[2022-03-31T09:32:52+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T09:32:52+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'orders' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:32:52+00:00][error] DESCRIBE `orders`
+[2022-03-31T09:32:52+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:32:52+00:00][error] DESCRIBE `settings`
+[2022-03-31T09:32:52+00:00][error] SELECT `settings`.`id`, `settings`.`title_optimization`, `settings`.`default_price`, `settings`.`default_stock`, `settings`.`default_zipcode` FROM `settings` WHERE `settings`.`id` = 1
+[2022-03-31T09:32:52+00:00][info] Before notification. Order Added
+[2022-03-31T09:32:59+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:32:59+00:00][error] DESCRIBE `products`
+[2022-03-31T09:32:59+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T09:32:59+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'orders' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:32:59+00:00][error] DESCRIBE `orders`
+[2022-03-31T09:32:59+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:32:59+00:00][error] DESCRIBE `settings`
+[2022-03-31T09:32:59+00:00][error] SELECT `settings`.`id`, `settings`.`title_optimization`, `settings`.`default_price`, `settings`.`default_stock`, `settings`.`default_zipcode` FROM `settings` WHERE `settings`.`id` = 1
+[2022-03-31T09:32:59+00:00][info] Before notification. Order Added
+[2022-03-31T09:32:59+00:00][error] INSERT INTO `orders` (`customer_name`, `customer_address`, `zipcode`, `product`, `quantity`) VALUES (?, ?, ?, ?, ?)
+[2022-03-31T09:33:10+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:33:10+00:00][error] DESCRIBE `products`
+[2022-03-31T09:33:10+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T09:36:24+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:36:24+00:00][error] DESCRIBE `products`
+[2022-03-31T09:36:24+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T09:36:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'orders' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:36:28+00:00][error] DESCRIBE `orders`
+[2022-03-31T09:36:28+00:00][error] SELECT `orders`.`order_id`, `orders`.`customer_name`, `orders`.`customer_address`, `orders`.`zipcode`, `orders`.`product`, `orders`.`quantity` FROM `orders`
+[2022-03-31T09:36:31+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:36:31+00:00][error] DESCRIBE `products`
+[2022-03-31T09:36:31+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T09:36:35+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:36:35+00:00][error] DESCRIBE `products`
+[2022-03-31T09:36:35+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:36:35+00:00][error] DESCRIBE `settings`
+[2022-03-31T09:36:35+00:00][error] SELECT `settings`.`id`, `settings`.`title_optimization`, `settings`.`default_price`, `settings`.`default_stock`, `settings`.`default_zipcode` FROM `settings` WHERE `settings`.`id` = 1
+[2022-03-31T09:36:35+00:00][info] Before notification. Product Added
+[2022-03-31T09:36:40+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'orders' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:36:40+00:00][error] DESCRIBE `orders`
+[2022-03-31T09:36:40+00:00][error] SELECT `orders`.`order_id`, `orders`.`customer_name`, `orders`.`customer_address`, `orders`.`zipcode`, `orders`.`product`, `orders`.`quantity` FROM `orders`
+[2022-03-31T09:36:42+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:36:42+00:00][error] DESCRIBE `products`
+[2022-03-31T09:36:42+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T09:36:44+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:36:44+00:00][error] DESCRIBE `products`
+[2022-03-31T09:36:44+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T09:36:44+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'orders' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:36:44+00:00][error] DESCRIBE `orders`
+[2022-03-31T09:36:44+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:36:44+00:00][error] DESCRIBE `settings`
+[2022-03-31T09:36:44+00:00][error] SELECT `settings`.`id`, `settings`.`title_optimization`, `settings`.`default_price`, `settings`.`default_stock`, `settings`.`default_zipcode` FROM `settings` WHERE `settings`.`id` = 1
+[2022-03-31T09:36:44+00:00][info] Before notification. Order Added
+[2022-03-31T09:36:45+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:36:45+00:00][error] DESCRIBE `products`
+[2022-03-31T09:36:45+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T09:36:50+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:36:50+00:00][error] DESCRIBE `settings`
+[2022-03-31T09:36:50+00:00][error] SELECT `settings`.`id`, `settings`.`title_optimization`, `settings`.`default_price`, `settings`.`default_stock`, `settings`.`default_zipcode` FROM `settings` WHERE `settings`.`id` = 1
+[2022-03-31T09:36:59+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:36:59+00:00][error] DESCRIBE `settings`
+[2022-03-31T09:36:59+00:00][error] SELECT `settings`.`id`, `settings`.`title_optimization`, `settings`.`default_price`, `settings`.`default_stock`, `settings`.`default_zipcode` FROM `settings` WHERE `settings`.`id` = 1
+[2022-03-31T09:36:59+00:00][error] UPDATE `settings` SET `title_optimization` = ?, `default_price` = ?, `default_stock` = ?, `default_zipcode` = ? WHERE `id` = ?
+[2022-03-31T09:41:37+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:41:37+00:00][error] DESCRIBE `roles`
+[2022-03-31T09:41:41+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:41:41+00:00][error] DESCRIBE `roles`
+[2022-03-31T09:41:41+00:00][error] INSERT INTO `roles` (`role`) VALUES (?)
+[2022-03-31T09:42:21+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:42:21+00:00][error] DESCRIBE `components`
+[2022-03-31T09:42:21+00:00][error] INSERT INTO `components` (`component`) VALUES (?)
+[2022-03-31T09:42:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:42:23+00:00][error] DESCRIBE `components`
+[2022-03-31T09:43:03+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:43:03+00:00][error] DESCRIBE `components`
+[2022-03-31T09:43:03+00:00][error] INSERT INTO `components` (`component`) VALUES (?)
+[2022-03-31T09:43:08+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:43:08+00:00][error] DESCRIBE `roles`
+[2022-03-31T09:43:08+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T09:43:08+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:43:08+00:00][error] DESCRIBE `components`
+[2022-03-31T09:43:08+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`

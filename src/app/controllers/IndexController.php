@@ -22,7 +22,7 @@ class IndexController extends Controller
             $myescaper = $myescaper->santize($this->request->getPost());
             $this->view->post = $this->request->getPost();
             $this->view->product = $myescaper;
-            // die();
+            
             $newProduct->assign(
                 $myescaper,
                 [
@@ -38,7 +38,7 @@ class IndexController extends Controller
             $eventsManager = $this->di->get('EventsManager');
             $settings = Settings::find(1);
             $this->view->event =   $eventsManager->fire('notification:beforesend', $newProduct, $settings);
-            // $eventsManager->fire('db:afterQuery');
+       
             $success = $this->view->event->save();
             if ($success) {
                 $this->view->msg = "<h6 class='alert alert-success w-75 container text-center'>Added Successfully</h6>";
@@ -106,7 +106,4 @@ class IndexController extends Controller
             }
         }
     }
-
-
- 
 }

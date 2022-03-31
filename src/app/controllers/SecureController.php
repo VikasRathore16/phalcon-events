@@ -26,7 +26,7 @@ class SecureController extends Controller
             );
 
             $acl->allow('admin', '*', '*');
-            // $acl->deny('guest', '*', '*');
+
 
             file_put_contents(
                 $aclFile,
@@ -42,11 +42,5 @@ class SecureController extends Controller
         } else {
             echo "Access denied";
         }
-    }
-
-    public function eventAction()
-    {
-        // $eventsManager = $this->di->get('EventsManager');
-        // $eventsManager->fire('application:beforeHandleRequest', new \Phalcon\Mvc\Application);
     }
 }

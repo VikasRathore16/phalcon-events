@@ -48,20 +48,10 @@ class NotificationListeners extends Injectable
             $controller = $application->router->getControllerName() ?? 'index';
             $action = $application->router->getActionName() ?? 'index';
             if (!$role || true !== $acl->isAllowed($role, $controller, $action)) {
-                // print_r($controller);
+
                 echo '<h2>Access denied :(</h2>';
-                echo "<pre>";
-                // print_r($acl);
-                echo "</pre>";
                 die;
             }
-            //  else {
-            //     // print_r($acl);
-
-            //     echo 'Access grant :)';
-            
-            //     // die;
-            // }
         }
     }
 }

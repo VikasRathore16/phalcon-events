@@ -28,7 +28,13 @@ class AclController extends Controller
                     'role'
                 ]
             );
-            $newrole->save();
+            $success = $newrole->save();
+            $this->view->success = $success;
+            if ($success) {
+                $this->view->msg = "<h6 class='alert alert-success w-75 container text-center'>Added Successfully</h6>";
+            } else {
+                $this->view->msg = "<h6 class='alert alert-danger w-75 container text-center'>Something went wrong</h6>";
+            }
         }
     }
 
@@ -39,14 +45,12 @@ class AclController extends Controller
         $request = new Request();
         $dir    = APP_PATH . '/controllers';
         $files = scandir($dir, 1);
-
-        // print_r($files);
         $controllers = array();
         foreach ($files as $key => $value) {
             $explode  = explode('Controller', $value);
             array_push($controllers, strtolower($explode[0]));
         }
-        $this->view->controllers = array_diff($controllers, array('.', '..')); // explode('Controller', $files[0]);
+        $this->view->controllers = array_diff($controllers, array('.', '..'));
 
 
         if (true === $request->isPost()) {
@@ -58,7 +62,13 @@ class AclController extends Controller
                     'component'
                 ]
             );
-            $component->save();
+            $success = $component->save();
+            $this->view->success = $success;
+            if ($success) {
+                $this->view->msg = "<h6 class='alert alert-success w-75 container text-center'>Added Successfully</h6>";
+            } else {
+                $this->view->msg = "<h6 class='alert alert-danger w-75 container text-center'>Something went wrong</h6>";
+            }
         }
     }
 
@@ -79,7 +89,7 @@ class AclController extends Controller
                 array_push($actions, $explode[0]);
             }
             $actions = array_diff($actions, array('.', '..'));
-            // $class_methods = get_class_methods($controller . 'Controller');
+
             echo json_encode($actions);
             die;
         }
