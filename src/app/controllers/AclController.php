@@ -87,14 +87,11 @@ class AclController extends Controller
 
     public function dataAction()
     {
-        // die($this->request->getPost('role'));
+
         $request = new Request();
-        print_r($request->getPost());
 
         if ($request->isPost()) {
             $role = $request->getPost('roles');
-            // print_r($role);
-            // die;
             $component  = $request->getPost('component');
             $action  = $request->getPost('action');
             $arr = array(
@@ -129,20 +126,18 @@ class AclController extends Controller
                 );
 
                 $success = $permission->save();
-                // echo $success;
-                // die;
                 $aclFile = APP_PATH . '/security/acl.cache';
-                print_r($aclFile);
+
                 if ($success) {
-                    print_r('success');
+
                     if (true === is_file($aclFile)) {
-                        print_r('success');
+
                         $acl = new Memory();
-                        // $acl = unserialize(file_get_contents($aclFile));
+
                         $permissions = Permissions::find();
-                        // print_r($permissions[0]->role);
+
                         foreach ($permissions as $permission) {
-                            // print_r($permission->role);
+
                             $acl->addRole($permission->role);
                             if ($permission->action == "*") {
                                 $acl->allow('admin', '*', "*");
@@ -163,6 +158,46 @@ class AclController extends Controller
                         $acl = unserialize(file_get_contents($aclFile));
                     }
                 }
+            }
+        }
+
+        $this->view->permissions = Permissions::find();
+    }
+
+    public function deleteAction()
+    {
+        $permission = Permissions::find($this->request->get('id'));
+        print_r($permission[0]->id);
+        // die;
+        $success = $permission->delete();
+        $aclFile = APP_PATH . '/security/acl.cache';
+        if ($success) {
+
+            if (true === is_file($aclFile)) {
+
+                $acl = new Memory();
+
+                $permissions = Permissions::find();
+
+                foreach ($permissions as $permission) {
+
+                    $acl->addRole($permission->role);
+                    if ($permission->action == "*") {
+                        $acl->allow('admin', '*', "*");
+                        continue;
+                    }
+                    $acl->addComponent(
+                        $permission->component,
+                        $permission->action
+                    );
+                    $acl->allow($permission->role, $permission->component, $permission->action);
+                }
+
+                file_put_contents(
+                    $aclFile,
+                    serialize($acl)
+                );
+                $this->response->redirect('acl/data?role=admin');
             }
         }
     }

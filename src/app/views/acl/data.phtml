@@ -1,0 +1,41 @@
+<?php
+
+echo "<h1 class='container'>Permissions table!</h1>";
+
+
+if ($permissions->count() > 0) {
+?>
+    <table class="table table-bordered table-hover container mt-5">
+        <thead class="thead-light">
+            <tr>
+                <th>#</th>
+                <th>Role</th>
+                <th>Components</th>
+                <th>Actions</th>
+                <th>Operation</th>
+
+
+
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="3">Users quantity: <?php echo $permissions->count(); ?></td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <?php foreach ($permissions as $permission) { ?>
+                <tr>
+                    <td><?php echo $permission->id; ?></td>
+                    <td><?php echo $permission->role; ?></td>
+                    <td><?php echo $permission->component; ?></td>
+                    <td><?php echo $permission->action; ?></td>
+                    <td><?php echo $this->tag->linkTo(['acl/delete?role=admin&id='.$permission->id, 'Delete', 'class' => 'btn btn-danger']) ?></td>
+
+
+                </tr>
+            <?php } ?>
+        </tbody>
+    </table>
+<?php
+}

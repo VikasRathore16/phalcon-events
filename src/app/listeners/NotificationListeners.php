@@ -50,9 +50,9 @@ class NotificationListeners extends Injectable
             if (!$role || true !== $acl->isAllowed($role, $controller, $action)) {
                 // print_r($controller);
                 echo 'Access denied :(';
-                // echo "<pre>";
-                // print_r($acl);
-                // echo "</pre>";
+                echo "<pre>";
+                print_r($acl);
+                echo "</pre>";
                 die;
             }
             //  else {
