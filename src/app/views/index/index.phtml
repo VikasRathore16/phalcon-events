@@ -23,32 +23,36 @@
 
 <body>
     <nav class="header">
-        <div class="row">
-       
-            <div class="col-2">
-                <?php echo $this->tag->linkTo('index/productList?role=admin', 'Products List') ?>
-            </div>
-            <div class="col-2">
-                <?php echo $this->tag->linkTo('index/addProduct?role=admin', 'Product Add') ?>
-            </div>
-            <div class="col-2">
-                <?php echo $this->tag->linkTo('index/orderList?role=admin', 'Orders List') ?>
-            </div>
 
-            <div class="col-2">
-                <?php echo $this->tag->linkTo('index/addOrder?role=admin', 'Order Add') ?>
 
-            </div>
-            <div class="col-2">
-                <?php echo $this->tag->linkTo('index/settings?role=admin', 'Settings') ?>
-
-            </div>
-            <div class="col-2">
-                <?php echo $this->tag->linkTo('acl?role=admin', 'Acl') ?>
-
-            </div>
-        
+        <div class="col-3 text-center p-3 border-danger  h4 mx-5 border mt-5">
+            <?php echo $this->tag->linkTo('index/productList?role=admin', 'Products List') ?>
         </div>
+        <div class="col-3 text-center p-3 border-danger  h4 mx-5 border mt-5">
+            <?php echo $this->tag->linkTo('index/addProduct?role=admin', 'Product Add') ?>
+        </div>
+        <div class="col-3 text-center p-3 border-danger  h4 mx-5 border mt-5">
+            <?php echo $this->tag->linkTo('index/orderList?role=admin', 'Orders List') ?>
+        </div>
+
+        <div class="col-3 text-center p-3 border-danger  h4 mx-5 border mt-5">
+            <?php echo $this->tag->linkTo('index/addOrder?role=admin', 'Order Add') ?>
+
+        </div>
+        <div class="col-3 text-center p-3 border-danger  h4 mx-5 border mt-5">
+            <?php echo $this->tag->linkTo('index/settings?role=admin', 'Settings') ?>
+
+        </div>
+        <div class="col-3 text-center p-3 border-danger  h4 mx-5 border mt-5">
+            <?php echo $this->tag->linkTo('acl?role=admin', 'Acl') ?>
+
+        </div>
+        <div class="col-3 text-center p-3 border-danger  h4 mx-5 border mt-5">
+            <?php echo $this->tag->linkTo('acl/data?role=admin', 'Permissions') ?>
+
+        </div>
+
+
     </nav>
 </body>
 

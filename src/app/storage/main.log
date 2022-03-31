@@ -3828,3 +3828,9 @@
 [2022-03-31T08:59:11+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
 [2022-03-31T08:59:11+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions`
 [2022-03-31T08:59:11+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions`
+[2022-03-31T09:05:14+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:05:14+00:00][error] DESCRIBE `permissions`
+[2022-03-31T09:05:14+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions`
+[2022-03-31T09:05:16+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T09:05:16+00:00][error] DESCRIBE `permissions`
+[2022-03-31T09:05:16+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions`
