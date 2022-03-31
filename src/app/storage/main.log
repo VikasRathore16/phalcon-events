@@ -2061,3 +2061,1365 @@
 [2022-03-31T04:38:47+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
 [2022-03-31T04:38:47+00:00][error] DESCRIBE `components`
 [2022-03-31T04:38:47+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:28:47+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:28:47+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:28:47+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:28:47+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:28:47+00:00][error] DESCRIBE `components`
+[2022-03-31T05:28:47+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:29:27+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:29:27+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:29:27+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:29:27+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:29:27+00:00][error] DESCRIBE `components`
+[2022-03-31T05:29:27+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:33:00+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:33:00+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:33:00+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:33:00+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:33:00+00:00][error] DESCRIBE `components`
+[2022-03-31T05:33:00+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:33:11+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:33:11+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:33:11+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:33:11+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:33:11+00:00][error] DESCRIBE `components`
+[2022-03-31T05:33:11+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:33:13+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:33:13+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:33:13+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:33:13+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:33:13+00:00][error] DESCRIBE `components`
+[2022-03-31T05:33:13+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:33:16+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:33:16+00:00][error] DESCRIBE `permissions`
+[2022-03-31T05:33:16+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T05:33:16+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T05:37:56+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:37:56+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:37:56+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:37:56+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:37:56+00:00][error] DESCRIBE `components`
+[2022-03-31T05:37:56+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:37:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:37:57+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:37:57+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:37:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:37:57+00:00][error] DESCRIBE `components`
+[2022-03-31T05:37:57+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:37:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:37:57+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:37:57+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:37:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:37:57+00:00][error] DESCRIBE `components`
+[2022-03-31T05:37:57+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:37:58+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:37:58+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:37:58+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:37:58+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:37:58+00:00][error] DESCRIBE `components`
+[2022-03-31T05:37:58+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:38:06+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:06+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:38:06+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:38:06+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:06+00:00][error] DESCRIBE `components`
+[2022-03-31T05:38:06+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:38:07+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:07+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:38:07+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:38:07+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:07+00:00][error] DESCRIBE `components`
+[2022-03-31T05:38:07+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:38:08+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:08+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:38:08+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:38:08+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:08+00:00][error] DESCRIBE `components`
+[2022-03-31T05:38:08+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:38:10+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:10+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:38:10+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:38:10+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:10+00:00][error] DESCRIBE `components`
+[2022-03-31T05:38:10+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:38:14+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:14+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:38:14+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:38:14+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:14+00:00][error] DESCRIBE `components`
+[2022-03-31T05:38:14+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:38:19+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:19+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:38:19+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:38:19+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:19+00:00][error] DESCRIBE `components`
+[2022-03-31T05:38:19+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:38:39+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:39+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:38:39+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:38:39+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:39+00:00][error] DESCRIBE `components`
+[2022-03-31T05:38:39+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:38:40+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:40+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:38:40+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:38:40+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:40+00:00][error] DESCRIBE `components`
+[2022-03-31T05:38:40+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:38:43+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:43+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:38:43+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:38:43+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:43+00:00][error] DESCRIBE `components`
+[2022-03-31T05:38:43+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:38:45+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:45+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:38:45+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:38:45+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:45+00:00][error] DESCRIBE `components`
+[2022-03-31T05:38:45+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:38:46+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:46+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:38:46+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:38:46+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:38:46+00:00][error] DESCRIBE `components`
+[2022-03-31T05:38:46+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:39:11+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:39:11+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:39:11+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:39:11+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:39:11+00:00][error] DESCRIBE `components`
+[2022-03-31T05:39:11+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:39:12+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:39:12+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:39:12+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:39:12+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:39:12+00:00][error] DESCRIBE `components`
+[2022-03-31T05:39:12+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:39:19+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:39:19+00:00][error] DESCRIBE `permissions`
+[2022-03-31T05:39:19+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T05:39:19+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T05:39:42+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:39:42+00:00][error] DESCRIBE `permissions`
+[2022-03-31T05:39:42+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T05:39:46+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:39:46+00:00][error] DESCRIBE `permissions`
+[2022-03-31T05:39:46+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T05:39:46+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T05:39:49+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:39:49+00:00][error] DESCRIBE `permissions`
+[2022-03-31T05:39:49+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T05:39:49+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T05:39:54+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:39:54+00:00][error] DESCRIBE `permissions`
+[2022-03-31T05:39:54+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T05:39:54+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T05:40:24+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:40:24+00:00][error] DESCRIBE `products`
+[2022-03-31T05:40:24+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T05:40:30+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:40:30+00:00][error] DESCRIBE `products`
+[2022-03-31T05:40:30+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T05:40:41+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:40:41+00:00][error] DESCRIBE `products`
+[2022-03-31T05:40:41+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T05:40:41+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'orders' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:40:41+00:00][error] DESCRIBE `orders`
+[2022-03-31T05:40:41+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:40:41+00:00][error] DESCRIBE `settings`
+[2022-03-31T05:40:41+00:00][error] SELECT `settings`.`id`, `settings`.`title_optimization`, `settings`.`default_price`, `settings`.`default_stock`, `settings`.`default_zipcode` FROM `settings` WHERE `settings`.`id` = 1
+[2022-03-31T05:40:41+00:00][info] Before notification. Order Added
+[2022-03-31T05:40:43+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:40:43+00:00][error] DESCRIBE `products`
+[2022-03-31T05:40:43+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T05:40:43+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'orders' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:40:43+00:00][error] DESCRIBE `orders`
+[2022-03-31T05:40:43+00:00][error] INSERT INTO `orders` (`customer_name`, `customer_address`, `zipcode`, `product`, `quantity`) VALUES (?, ?, ?, ?, ?)
+[2022-03-31T05:40:43+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:40:43+00:00][error] DESCRIBE `settings`
+[2022-03-31T05:40:43+00:00][error] SELECT `settings`.`id`, `settings`.`title_optimization`, `settings`.`default_price`, `settings`.`default_stock`, `settings`.`default_zipcode` FROM `settings` WHERE `settings`.`id` = 1
+[2022-03-31T05:40:43+00:00][info] Before notification. Order Added
+[2022-03-31T05:40:43+00:00][error] UPDATE `orders` SET `customer_name` = ?, `customer_address` = ?, `zipcode` = ?, `product` = ?, `quantity` = ? WHERE `order_id` = ?
+[2022-03-31T05:40:45+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:40:45+00:00][error] DESCRIBE `products`
+[2022-03-31T05:40:45+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T05:41:20+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:41:20+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:41:20+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:41:20+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:41:20+00:00][error] DESCRIBE `components`
+[2022-03-31T05:41:20+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:47:30+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:47:30+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:47:30+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:47:30+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:47:30+00:00][error] DESCRIBE `components`
+[2022-03-31T05:47:30+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:49:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:49:23+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:49:23+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:49:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:49:23+00:00][error] DESCRIBE `components`
+[2022-03-31T05:49:23+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:52:00+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:52:00+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:52:00+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:52:00+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:52:00+00:00][error] DESCRIBE `components`
+[2022-03-31T05:52:00+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:52:02+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:52:02+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:52:02+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:52:02+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:52:02+00:00][error] DESCRIBE `components`
+[2022-03-31T05:52:02+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:52:08+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:52:08+00:00][error] DESCRIBE `permissions`
+[2022-03-31T05:52:08+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T05:52:08+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T05:52:54+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:52:54+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:52:54+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:52:54+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:52:54+00:00][error] DESCRIBE `components`
+[2022-03-31T05:52:54+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:52:58+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:52:58+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:52:58+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:52:58+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:52:58+00:00][error] DESCRIBE `components`
+[2022-03-31T05:52:58+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:52:59+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:52:59+00:00][error] DESCRIBE `permissions`
+[2022-03-31T05:52:59+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T05:55:58+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:55:58+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:55:58+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:55:58+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:55:58+00:00][error] DESCRIBE `components`
+[2022-03-31T05:55:58+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:56:16+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:56:16+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:56:16+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:56:16+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:56:16+00:00][error] DESCRIBE `components`
+[2022-03-31T05:56:16+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:56:18+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:56:18+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:56:18+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:56:18+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:56:18+00:00][error] DESCRIBE `components`
+[2022-03-31T05:56:18+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:56:21+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:56:21+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:56:21+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:56:21+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:56:21+00:00][error] DESCRIBE `components`
+[2022-03-31T05:56:21+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:56:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:56:23+00:00][error] DESCRIBE `permissions`
+[2022-03-31T05:56:23+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T05:56:23+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T05:56:23+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions`
+[2022-03-31T05:59:07+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:59:07+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:59:07+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:59:07+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:59:07+00:00][error] DESCRIBE `components`
+[2022-03-31T05:59:07+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:59:53+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:59:53+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:59:53+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:59:53+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:59:53+00:00][error] DESCRIBE `components`
+[2022-03-31T05:59:53+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:59:54+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:59:54+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:59:54+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:59:54+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:59:54+00:00][error] DESCRIBE `components`
+[2022-03-31T05:59:54+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T05:59:54+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:59:54+00:00][error] DESCRIBE `roles`
+[2022-03-31T05:59:54+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T05:59:54+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T05:59:54+00:00][error] DESCRIBE `components`
+[2022-03-31T05:59:54+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:00:26+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:00:26+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:00:26+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:00:26+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:00:26+00:00][error] DESCRIBE `components`
+[2022-03-31T06:00:26+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:00:26+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:00:26+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:00:26+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:00:26+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:00:26+00:00][error] DESCRIBE `components`
+[2022-03-31T06:00:26+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:00:26+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:00:26+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:00:26+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:00:26+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:00:26+00:00][error] DESCRIBE `components`
+[2022-03-31T06:00:26+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:00:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:00:28+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:00:28+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:00:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:00:28+00:00][error] DESCRIBE `components`
+[2022-03-31T06:00:28+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:01:26+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:01:26+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:01:26+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:01:26+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:01:26+00:00][error] DESCRIBE `components`
+[2022-03-31T06:01:26+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:01:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:01:28+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:01:28+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:01:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:01:28+00:00][error] DESCRIBE `components`
+[2022-03-31T06:01:28+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:01:44+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:01:44+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:01:44+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:01:44+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:01:44+00:00][error] DESCRIBE `components`
+[2022-03-31T06:01:44+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:05:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:05:57+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:05:57+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:05:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:05:57+00:00][error] DESCRIBE `components`
+[2022-03-31T06:05:57+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:05:58+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:05:58+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:05:58+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:05:58+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:05:58+00:00][error] DESCRIBE `components`
+[2022-03-31T06:05:58+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:06:01+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:06:01+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:06:01+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:06:01+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:06:01+00:00][error] DESCRIBE `components`
+[2022-03-31T06:06:01+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:06:04+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:06:04+00:00][error] DESCRIBE `permissions`
+[2022-03-31T06:06:04+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T06:06:04+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T06:06:58+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:06:58+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:06:58+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:06:58+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:06:58+00:00][error] DESCRIBE `components`
+[2022-03-31T06:06:58+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:07:15+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:07:15+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:07:15+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:07:15+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:07:15+00:00][error] DESCRIBE `components`
+[2022-03-31T06:07:15+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:07:18+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:07:18+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:07:18+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:07:18+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:07:18+00:00][error] DESCRIBE `components`
+[2022-03-31T06:07:18+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:07:38+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:07:38+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:07:38+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:07:38+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:07:38+00:00][error] DESCRIBE `components`
+[2022-03-31T06:07:38+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:07:41+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:07:41+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:07:41+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:07:41+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:07:41+00:00][error] DESCRIBE `components`
+[2022-03-31T06:07:41+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:08:34+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:08:34+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:08:34+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:08:34+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:08:34+00:00][error] DESCRIBE `components`
+[2022-03-31T06:08:34+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:08:39+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:08:39+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:08:39+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:08:39+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:08:39+00:00][error] DESCRIBE `components`
+[2022-03-31T06:08:39+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:08:48+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:08:48+00:00][error] DESCRIBE `components`
+[2022-03-31T06:08:48+00:00][error] INSERT INTO `components` (`component`) VALUES (?)
+[2022-03-31T06:08:52+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:08:52+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:08:52+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:08:52+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:08:52+00:00][error] DESCRIBE `components`
+[2022-03-31T06:08:52+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:08:56+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:08:56+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:08:56+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:08:56+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:08:56+00:00][error] DESCRIBE `components`
+[2022-03-31T06:08:56+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:08:58+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:08:58+00:00][error] DESCRIBE `permissions`
+[2022-03-31T06:08:58+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T06:08:58+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T06:09:07+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:09:07+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:09:07+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:09:07+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:09:07+00:00][error] DESCRIBE `components`
+[2022-03-31T06:09:07+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:09:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:09:28+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:09:28+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:09:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:09:28+00:00][error] DESCRIBE `components`
+[2022-03-31T06:09:28+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:11:02+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:11:02+00:00][error] DESCRIBE `permissions`
+[2022-03-31T06:11:02+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T06:11:08+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:11:08+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:11:08+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:11:08+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:11:08+00:00][error] DESCRIBE `components`
+[2022-03-31T06:11:08+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:12:14+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:12:14+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:12:14+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:12:14+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:12:14+00:00][error] DESCRIBE `components`
+[2022-03-31T06:12:14+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:12:14+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:12:14+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:12:14+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:12:14+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:12:14+00:00][error] DESCRIBE `components`
+[2022-03-31T06:12:14+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:12:14+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:12:14+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:12:14+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:12:14+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:12:14+00:00][error] DESCRIBE `components`
+[2022-03-31T06:12:14+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:12:17+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:12:17+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:12:17+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:12:17+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:12:17+00:00][error] DESCRIBE `components`
+[2022-03-31T06:12:17+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:12:20+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:12:20+00:00][error] DESCRIBE `permissions`
+[2022-03-31T06:12:20+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T06:12:20+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T06:12:20+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions`
+[2022-03-31T06:12:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:12:23+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:12:23+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:12:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:12:23+00:00][error] DESCRIBE `components`
+[2022-03-31T06:12:23+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:12:25+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:12:25+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:12:25+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:12:25+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:12:25+00:00][error] DESCRIBE `components`
+[2022-03-31T06:12:25+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:20:13+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:20:13+00:00][error] DESCRIBE `permissions`
+[2022-03-31T06:20:13+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T06:20:13+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T06:20:14+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:20:14+00:00][error] DESCRIBE `permissions`
+[2022-03-31T06:20:14+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T06:20:15+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:20:15+00:00][error] DESCRIBE `permissions`
+[2022-03-31T06:20:15+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T06:20:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:20:23+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:20:23+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:20:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:20:23+00:00][error] DESCRIBE `components`
+[2022-03-31T06:20:23+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:20:25+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:20:25+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:20:25+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:20:25+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:20:25+00:00][error] DESCRIBE `components`
+[2022-03-31T06:20:25+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:20:25+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:20:25+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:20:25+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:20:25+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:20:25+00:00][error] DESCRIBE `components`
+[2022-03-31T06:20:25+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:20:25+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:20:25+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:20:25+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:20:25+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:20:25+00:00][error] DESCRIBE `components`
+[2022-03-31T06:20:25+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:20:26+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:20:26+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:20:26+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:20:26+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:20:26+00:00][error] DESCRIBE `components`
+[2022-03-31T06:20:26+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:20:30+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:20:30+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:20:30+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:20:30+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:20:30+00:00][error] DESCRIBE `components`
+[2022-03-31T06:20:30+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:20:31+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:20:31+00:00][error] DESCRIBE `permissions`
+[2022-03-31T06:20:31+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T06:21:09+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:21:09+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:21:09+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:21:09+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:21:09+00:00][error] DESCRIBE `components`
+[2022-03-31T06:21:09+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:21:11+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:21:11+00:00][error] DESCRIBE `permissions`
+[2022-03-31T06:21:11+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T06:21:11+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T06:22:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:22:28+00:00][error] DESCRIBE `permissions`
+[2022-03-31T06:22:28+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T06:22:29+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:22:29+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:22:29+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:22:29+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:22:29+00:00][error] DESCRIBE `components`
+[2022-03-31T06:22:29+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:22:30+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:22:30+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:22:30+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:22:30+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:22:30+00:00][error] DESCRIBE `components`
+[2022-03-31T06:22:30+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:22:41+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:22:41+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:22:41+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:22:41+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:22:41+00:00][error] DESCRIBE `components`
+[2022-03-31T06:22:41+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:24:34+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:24:34+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:24:34+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:24:34+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:24:34+00:00][error] DESCRIBE `components`
+[2022-03-31T06:24:34+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:24:36+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:24:36+00:00][error] DESCRIBE `permissions`
+[2022-03-31T06:24:36+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T06:25:00+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:25:00+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:25:00+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:25:00+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:25:00+00:00][error] DESCRIBE `components`
+[2022-03-31T06:25:00+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:25:00+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:25:00+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:25:00+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:25:00+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:25:00+00:00][error] DESCRIBE `components`
+[2022-03-31T06:25:00+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:25:00+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:25:00+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:25:00+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:25:00+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:25:00+00:00][error] DESCRIBE `components`
+[2022-03-31T06:25:00+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:25:07+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:25:07+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:25:07+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:25:07+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:25:07+00:00][error] DESCRIBE `components`
+[2022-03-31T06:25:07+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:25:11+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:25:11+00:00][error] DESCRIBE `permissions`
+[2022-03-31T06:25:11+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T06:25:11+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T06:25:11+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions`
+[2022-03-31T06:41:53+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:41:53+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:41:53+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:41:53+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:41:53+00:00][error] DESCRIBE `components`
+[2022-03-31T06:41:53+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:41:55+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:41:55+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:41:55+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:41:55+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:41:55+00:00][error] DESCRIBE `components`
+[2022-03-31T06:41:55+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:41:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:41:57+00:00][error] DESCRIBE `permissions`
+[2022-03-31T06:41:57+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T06:42:01+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:42:01+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:42:01+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:42:01+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:42:01+00:00][error] DESCRIBE `components`
+[2022-03-31T06:42:01+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:42:01+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:42:01+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:42:01+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:42:01+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:42:01+00:00][error] DESCRIBE `components`
+[2022-03-31T06:42:01+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:44:30+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:44:30+00:00][error] DESCRIBE `permissions`
+[2022-03-31T06:44:30+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T06:44:51+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:44:51+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:44:51+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:44:51+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:44:51+00:00][error] DESCRIBE `components`
+[2022-03-31T06:44:51+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:44:51+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:44:51+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:44:51+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:44:51+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:44:51+00:00][error] DESCRIBE `components`
+[2022-03-31T06:44:51+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:44:51+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:44:51+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:44:51+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:44:51+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:44:51+00:00][error] DESCRIBE `components`
+[2022-03-31T06:44:51+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:45:16+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:45:16+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:45:16+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:45:16+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:45:16+00:00][error] DESCRIBE `components`
+[2022-03-31T06:45:16+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:45:47+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:45:47+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:45:47+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:45:47+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:45:47+00:00][error] DESCRIBE `components`
+[2022-03-31T06:45:47+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:45:52+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:45:52+00:00][error] DESCRIBE `permissions`
+[2022-03-31T06:45:52+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T06:45:52+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T06:45:52+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions`
+[2022-03-31T06:45:56+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:45:56+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:45:56+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:45:56+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:45:56+00:00][error] DESCRIBE `components`
+[2022-03-31T06:45:56+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:45:56+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:45:56+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:45:56+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:45:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:45:57+00:00][error] DESCRIBE `components`
+[2022-03-31T06:45:57+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:48:13+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:48:13+00:00][error] DESCRIBE `products`
+[2022-03-31T06:48:13+00:00][error] INSERT INTO `products` (`product_name`, `description`, `tags`, `price`, `stocks`) VALUES (?, ?, ?, ?, ?)
+[2022-03-31T06:48:13+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'settings' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:48:13+00:00][error] DESCRIBE `settings`
+[2022-03-31T06:48:13+00:00][error] SELECT `settings`.`id`, `settings`.`title_optimization`, `settings`.`default_price`, `settings`.`default_stock`, `settings`.`default_zipcode` FROM `settings` WHERE `settings`.`id` = 1
+[2022-03-31T06:48:13+00:00][info] Before notification. Product Added
+[2022-03-31T06:48:13+00:00][error] UPDATE `products` SET `product_name` = ?, `description` = ?, `tags` = ?, `price` = ?, `stocks` = ? WHERE `product_id` = ?
+[2022-03-31T06:48:32+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:48:32+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:48:32+00:00][error] INSERT INTO `roles` (`role`) VALUES (?)
+[2022-03-31T06:50:18+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:50:18+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:50:18+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:50:18+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:50:18+00:00][error] DESCRIBE `components`
+[2022-03-31T06:50:18+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:50:21+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:50:21+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:50:21+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:50:21+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:50:21+00:00][error] DESCRIBE `components`
+[2022-03-31T06:50:21+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:51:41+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:51:41+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:51:41+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:51:41+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:51:41+00:00][error] DESCRIBE `components`
+[2022-03-31T06:51:41+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:52:30+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:52:30+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:52:30+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:52:30+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:52:30+00:00][error] DESCRIBE `components`
+[2022-03-31T06:52:30+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:52:33+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:52:33+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:52:33+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:52:33+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:52:33+00:00][error] DESCRIBE `components`
+[2022-03-31T06:52:33+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:53:33+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:53:33+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:53:33+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:53:33+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:53:33+00:00][error] DESCRIBE `components`
+[2022-03-31T06:53:33+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:54:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:54:28+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:54:28+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:54:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:54:28+00:00][error] DESCRIBE `components`
+[2022-03-31T06:54:28+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:54:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:54:28+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:54:28+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:54:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:54:28+00:00][error] DESCRIBE `components`
+[2022-03-31T06:54:28+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:54:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:54:28+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:54:28+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:54:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:54:28+00:00][error] DESCRIBE `components`
+[2022-03-31T06:54:28+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:54:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:54:28+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:54:28+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:54:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:54:28+00:00][error] DESCRIBE `components`
+[2022-03-31T06:54:28+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:54:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:54:28+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:54:28+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:54:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:54:28+00:00][error] DESCRIBE `components`
+[2022-03-31T06:54:28+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:54:31+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:54:31+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:54:31+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:54:31+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:54:31+00:00][error] DESCRIBE `components`
+[2022-03-31T06:54:31+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:54:43+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:54:43+00:00][error] DESCRIBE `permissions`
+[2022-03-31T06:54:43+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T06:54:43+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T06:54:43+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions`
+[2022-03-31T06:55:19+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:55:19+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:55:19+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:55:19+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:55:19+00:00][error] DESCRIBE `components`
+[2022-03-31T06:55:19+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T06:55:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:55:23+00:00][error] DESCRIBE `permissions`
+[2022-03-31T06:55:23+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T06:55:23+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T06:55:23+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions`
+[2022-03-31T06:56:25+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:56:25+00:00][error] DESCRIBE `roles`
+[2022-03-31T06:56:25+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T06:56:25+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T06:56:25+00:00][error] DESCRIBE `components`
+[2022-03-31T06:56:25+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:03:58+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:03:58+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:03:58+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:03:58+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:03:58+00:00][error] DESCRIBE `components`
+[2022-03-31T07:03:58+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:04:24+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:04:24+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:04:24+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:04:24+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:04:24+00:00][error] DESCRIBE `components`
+[2022-03-31T07:04:24+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:04:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:04:28+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:04:28+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:04:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:04:28+00:00][error] DESCRIBE `components`
+[2022-03-31T07:04:28+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:07:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:23+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:07:23+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:07:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:23+00:00][error] DESCRIBE `components`
+[2022-03-31T07:07:23+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:07:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:23+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:07:23+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:07:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:23+00:00][error] DESCRIBE `components`
+[2022-03-31T07:07:23+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:07:24+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:24+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:07:24+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:07:24+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:24+00:00][error] DESCRIBE `components`
+[2022-03-31T07:07:24+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:07:24+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:24+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:07:24+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:07:24+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:24+00:00][error] DESCRIBE `components`
+[2022-03-31T07:07:24+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:07:24+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:24+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:07:24+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:07:24+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:24+00:00][error] DESCRIBE `components`
+[2022-03-31T07:07:24+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:07:26+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:26+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:07:26+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:07:26+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:26+00:00][error] DESCRIBE `components`
+[2022-03-31T07:07:26+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:07:56+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:56+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:07:56+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:07:56+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:56+00:00][error] DESCRIBE `components`
+[2022-03-31T07:07:56+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:07:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:57+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:07:57+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:07:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:57+00:00][error] DESCRIBE `components`
+[2022-03-31T07:07:57+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:07:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:57+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:07:57+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:07:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:57+00:00][error] DESCRIBE `components`
+[2022-03-31T07:07:57+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:07:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:57+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:07:57+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:07:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:57+00:00][error] DESCRIBE `components`
+[2022-03-31T07:07:57+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:07:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:57+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:07:57+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:07:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:57+00:00][error] DESCRIBE `components`
+[2022-03-31T07:07:57+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:07:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:57+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:07:57+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:07:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:07:58+00:00][error] DESCRIBE `components`
+[2022-03-31T07:07:58+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:08:11+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:08:11+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:08:11+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:08:11+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:08:11+00:00][error] DESCRIBE `components`
+[2022-03-31T07:08:11+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:08:13+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:08:13+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:08:13+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:08:13+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:08:13+00:00][error] DESCRIBE `components`
+[2022-03-31T07:08:13+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:08:46+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:08:46+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:08:46+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:08:46+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:08:46+00:00][error] DESCRIBE `components`
+[2022-03-31T07:08:46+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:08:47+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:08:47+00:00][error] DESCRIBE `permissions`
+[2022-03-31T07:08:47+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T07:08:47+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T07:08:47+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions`
+[2022-03-31T07:08:56+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:08:56+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:08:56+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:08:56+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:08:56+00:00][error] DESCRIBE `components`
+[2022-03-31T07:08:56+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:09:19+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:09:19+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:09:19+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:09:19+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:09:19+00:00][error] DESCRIBE `components`
+[2022-03-31T07:09:19+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:09:22+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:09:22+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:09:22+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:09:22+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:09:22+00:00][error] DESCRIBE `components`
+[2022-03-31T07:09:22+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:09:42+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:09:42+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:09:42+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:09:42+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:09:42+00:00][error] DESCRIBE `components`
+[2022-03-31T07:09:42+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:09:52+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:09:52+00:00][error] DESCRIBE `permissions`
+[2022-03-31T07:09:52+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T07:09:52+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T07:09:52+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions`
+[2022-03-31T07:10:05+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:10:05+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:10:05+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:10:05+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:10:05+00:00][error] DESCRIBE `components`
+[2022-03-31T07:10:05+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:10:08+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:10:08+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:10:08+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:10:08+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:10:08+00:00][error] DESCRIBE `components`
+[2022-03-31T07:10:08+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:11:14+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:11:14+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:11:14+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:11:14+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:11:14+00:00][error] DESCRIBE `components`
+[2022-03-31T07:11:14+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:11:14+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:11:14+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:11:14+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:11:14+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:11:14+00:00][error] DESCRIBE `components`
+[2022-03-31T07:11:14+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:11:16+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:11:16+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:11:16+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:11:16+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:11:16+00:00][error] DESCRIBE `components`
+[2022-03-31T07:11:16+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:11:18+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:11:18+00:00][error] DESCRIBE `permissions`
+[2022-03-31T07:11:18+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T07:13:11+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:13:11+00:00][error] DESCRIBE `permissions`
+[2022-03-31T07:13:11+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T07:13:14+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:13:14+00:00][error] DESCRIBE `permissions`
+[2022-03-31T07:13:14+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T07:13:40+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:13:40+00:00][error] DESCRIBE `permissions`
+[2022-03-31T07:13:40+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T07:14:54+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:14:54+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:14:54+00:00][error] INSERT INTO `roles` (`role`) VALUES (?)
+[2022-03-31T07:16:38+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:16:38+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:16:38+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:16:38+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:16:38+00:00][error] DESCRIBE `components`
+[2022-03-31T07:16:38+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:16:41+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:16:41+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:16:41+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:16:41+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:16:41+00:00][error] DESCRIBE `components`
+[2022-03-31T07:16:41+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:16:42+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:16:42+00:00][error] DESCRIBE `permissions`
+[2022-03-31T07:16:42+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T07:16:42+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T07:17:27+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:17:27+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:17:27+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:17:27+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:17:27+00:00][error] DESCRIBE `components`
+[2022-03-31T07:17:27+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:17:30+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:17:30+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:17:30+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:17:30+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:17:30+00:00][error] DESCRIBE `components`
+[2022-03-31T07:17:30+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:17:32+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:17:32+00:00][error] DESCRIBE `permissions`
+[2022-03-31T07:17:32+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T07:18:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:18:57+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:20:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:20:28+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:20:30+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:20:30+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:20:31+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:20:31+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:20:31+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:20:31+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:20:31+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:20:31+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:20:31+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:20:31+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:20:55+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:20:55+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:21:16+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:21:16+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:21:16+00:00][error] INSERT INTO `roles` (`role`) VALUES (?)
+[2022-03-31T07:21:40+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:21:40+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:21:40+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:21:40+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:21:40+00:00][error] DESCRIBE `components`
+[2022-03-31T07:21:40+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:21:44+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:21:44+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:21:44+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:21:44+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:21:44+00:00][error] DESCRIBE `components`
+[2022-03-31T07:21:44+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:21:46+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:21:46+00:00][error] DESCRIBE `permissions`
+[2022-03-31T07:21:46+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T07:23:36+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:23:36+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:23:36+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:23:36+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:23:36+00:00][error] DESCRIBE `components`
+[2022-03-31T07:23:36+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:23:44+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:23:44+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:23:44+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:23:44+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:23:44+00:00][error] DESCRIBE `components`
+[2022-03-31T07:23:44+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:23:47+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:23:47+00:00][error] DESCRIBE `permissions`
+[2022-03-31T07:23:47+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T07:23:47+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T07:23:47+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions`
+[2022-03-31T07:24:06+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:24:06+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:24:06+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:24:06+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:24:06+00:00][error] DESCRIBE `components`
+[2022-03-31T07:24:06+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:24:07+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:24:07+00:00][error] DESCRIBE `permissions`
+[2022-03-31T07:24:07+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T07:24:07+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T07:24:07+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions`
+[2022-03-31T07:24:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:24:23+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:24:23+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:24:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:24:23+00:00][error] DESCRIBE `components`
+[2022-03-31T07:24:23+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:24:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:24:23+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:24:23+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:24:23+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:24:23+00:00][error] DESCRIBE `components`
+[2022-03-31T07:24:23+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:24:32+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:24:32+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:24:32+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:24:32+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:24:32+00:00][error] DESCRIBE `components`
+[2022-03-31T07:24:32+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:25:09+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:25:09+00:00][error] DESCRIBE `permissions`
+[2022-03-31T07:25:09+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T07:25:09+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T07:25:09+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions`
+[2022-03-31T07:28:01+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:28:01+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:28:01+00:00][error] INSERT INTO `roles` (`role`) VALUES (?)
+[2022-03-31T07:28:15+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:28:15+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:28:15+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:28:15+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:28:15+00:00][error] DESCRIBE `components`
+[2022-03-31T07:28:15+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:28:19+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:28:19+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:28:19+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:28:19+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:28:19+00:00][error] DESCRIBE `components`
+[2022-03-31T07:28:19+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:28:20+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:28:20+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:28:20+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:28:20+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:28:20+00:00][error] DESCRIBE `components`
+[2022-03-31T07:28:20+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:28:25+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:28:25+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:28:25+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:28:25+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:28:25+00:00][error] DESCRIBE `components`
+[2022-03-31T07:28:25+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:28:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:28:28+00:00][error] DESCRIBE `permissions`
+[2022-03-31T07:28:28+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T07:28:28+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T07:28:28+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions`
+[2022-03-31T07:28:32+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:28:32+00:00][error] DESCRIBE `products`
+[2022-03-31T07:28:32+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:29:19+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:29:19+00:00][error] DESCRIBE `products`
+[2022-03-31T07:29:19+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:29:25+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:29:25+00:00][error] DESCRIBE `products`
+[2022-03-31T07:29:25+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:29:27+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:29:27+00:00][error] DESCRIBE `products`
+[2022-03-31T07:29:27+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:29:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:29:28+00:00][error] DESCRIBE `products`
+[2022-03-31T07:29:28+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:29:29+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:29:29+00:00][error] DESCRIBE `products`
+[2022-03-31T07:29:29+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:29:47+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:29:47+00:00][error] DESCRIBE `products`
+[2022-03-31T07:29:47+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:29:47+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:29:47+00:00][error] DESCRIBE `products`
+[2022-03-31T07:29:47+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:29:47+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:29:47+00:00][error] DESCRIBE `products`
+[2022-03-31T07:29:47+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:29:51+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:29:51+00:00][error] DESCRIBE `products`
+[2022-03-31T07:29:51+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:29:52+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:29:52+00:00][error] DESCRIBE `products`
+[2022-03-31T07:29:52+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:29:53+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:29:53+00:00][error] DESCRIBE `products`
+[2022-03-31T07:29:53+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:29:56+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:29:56+00:00][error] DESCRIBE `products`
+[2022-03-31T07:29:56+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:29:57+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:29:57+00:00][error] DESCRIBE `products`
+[2022-03-31T07:29:57+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:29:58+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:29:58+00:00][error] DESCRIBE `products`
+[2022-03-31T07:29:58+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:29:58+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:29:58+00:00][error] DESCRIBE `products`
+[2022-03-31T07:29:58+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:29:59+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:29:59+00:00][error] DESCRIBE `products`
+[2022-03-31T07:29:59+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:30:00+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:30:00+00:00][error] DESCRIBE `products`
+[2022-03-31T07:30:00+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:30:01+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:30:01+00:00][error] DESCRIBE `products`
+[2022-03-31T07:30:01+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:30:10+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:30:10+00:00][error] DESCRIBE `products`
+[2022-03-31T07:30:10+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:30:39+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:30:39+00:00][error] DESCRIBE `products`
+[2022-03-31T07:30:39+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:31:16+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:31:16+00:00][error] DESCRIBE `products`
+[2022-03-31T07:31:16+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:31:18+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:31:18+00:00][error] DESCRIBE `products`
+[2022-03-31T07:31:18+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:31:19+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:31:19+00:00][error] DESCRIBE `products`
+[2022-03-31T07:31:19+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:31:50+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:31:50+00:00][error] DESCRIBE `products`
+[2022-03-31T07:31:50+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:35:33+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:35:33+00:00][error] DESCRIBE `products`
+[2022-03-31T07:35:33+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:35:47+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:35:47+00:00][error] DESCRIBE `products`
+[2022-03-31T07:35:47+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:35:51+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:35:51+00:00][error] DESCRIBE `products`
+[2022-03-31T07:35:51+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:37:01+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:37:01+00:00][error] DESCRIBE `products`
+[2022-03-31T07:37:01+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:37:15+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:37:15+00:00][error] DESCRIBE `products`
+[2022-03-31T07:37:15+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:37:16+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:37:16+00:00][error] DESCRIBE `products`
+[2022-03-31T07:37:16+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:37:16+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:37:16+00:00][error] DESCRIBE `products`
+[2022-03-31T07:37:16+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:37:16+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:37:16+00:00][error] DESCRIBE `products`
+[2022-03-31T07:37:16+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:37:16+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:37:16+00:00][error] DESCRIBE `products`
+[2022-03-31T07:37:16+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:37:16+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:37:16+00:00][error] DESCRIBE `products`
+[2022-03-31T07:37:16+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:37:17+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:37:17+00:00][error] DESCRIBE `products`
+[2022-03-31T07:37:17+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:37:17+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:37:17+00:00][error] DESCRIBE `products`
+[2022-03-31T07:37:17+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:37:34+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:37:34+00:00][error] DESCRIBE `products`
+[2022-03-31T07:37:34+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:38:14+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:38:14+00:00][error] DESCRIBE `products`
+[2022-03-31T07:38:14+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:38:33+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:38:33+00:00][error] DESCRIBE `products`
+[2022-03-31T07:38:33+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:38:34+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:38:34+00:00][error] DESCRIBE `products`
+[2022-03-31T07:38:34+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:38:34+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:38:34+00:00][error] DESCRIBE `products`
+[2022-03-31T07:38:34+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:38:35+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:38:35+00:00][error] DESCRIBE `products`
+[2022-03-31T07:38:35+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:38:35+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:38:35+00:00][error] DESCRIBE `products`
+[2022-03-31T07:38:35+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:38:35+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:38:35+00:00][error] DESCRIBE `products`
+[2022-03-31T07:38:35+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:38:35+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:38:35+00:00][error] DESCRIBE `products`
+[2022-03-31T07:38:35+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:38:35+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:38:35+00:00][error] DESCRIBE `products`
+[2022-03-31T07:38:35+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:38:40+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:38:40+00:00][error] DESCRIBE `products`
+[2022-03-31T07:38:40+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:38:41+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:38:41+00:00][error] DESCRIBE `products`
+[2022-03-31T07:38:41+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:38:42+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:38:42+00:00][error] DESCRIBE `products`
+[2022-03-31T07:38:42+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:38:43+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:38:43+00:00][error] DESCRIBE `products`
+[2022-03-31T07:38:43+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:38:43+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:38:43+00:00][error] DESCRIBE `products`
+[2022-03-31T07:38:43+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:38:43+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:38:43+00:00][error] DESCRIBE `products`
+[2022-03-31T07:38:43+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:38:44+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:38:44+00:00][error] DESCRIBE `products`
+[2022-03-31T07:38:44+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:38:44+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:38:44+00:00][error] DESCRIBE `products`
+[2022-03-31T07:38:44+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:39:17+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:39:17+00:00][error] DESCRIBE `products`
+[2022-03-31T07:39:17+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:39:17+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:39:17+00:00][error] DESCRIBE `products`
+[2022-03-31T07:39:17+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:39:17+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:39:17+00:00][error] DESCRIBE `products`
+[2022-03-31T07:39:17+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:39:17+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:39:17+00:00][error] DESCRIBE `products`
+[2022-03-31T07:39:17+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:39:18+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:39:18+00:00][error] DESCRIBE `products`
+[2022-03-31T07:39:18+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:39:22+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:39:22+00:00][error] DESCRIBE `products`
+[2022-03-31T07:39:22+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:39:30+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:39:30+00:00][error] DESCRIBE `products`
+[2022-03-31T07:39:30+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:40:49+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:40:49+00:00][error] DESCRIBE `products`
+[2022-03-31T07:40:49+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:41:00+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:41:00+00:00][error] DESCRIBE `products`
+[2022-03-31T07:41:00+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:41:08+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:41:08+00:00][error] DESCRIBE `products`
+[2022-03-31T07:41:08+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:41:28+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:41:28+00:00][error] DESCRIBE `products`
+[2022-03-31T07:41:28+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:48:41+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:48:41+00:00][error] DESCRIBE `products`
+[2022-03-31T07:48:41+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:49:25+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:49:25+00:00][error] DESCRIBE `components`
+[2022-03-31T07:49:25+00:00][error] INSERT INTO `components` (`component`) VALUES (?)
+[2022-03-31T07:49:27+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:49:27+00:00][error] DESCRIBE `components`
+[2022-03-31T07:49:27+00:00][error] INSERT INTO `components` (`component`) VALUES (?)
+[2022-03-31T07:49:30+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:49:30+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:49:30+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:49:30+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:49:30+00:00][error] DESCRIBE `components`
+[2022-03-31T07:49:30+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:50:05+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:50:05+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:50:05+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:50:05+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:50:05+00:00][error] DESCRIBE `components`
+[2022-03-31T07:50:05+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:50:08+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:50:08+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:50:08+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:50:08+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:50:08+00:00][error] DESCRIBE `components`
+[2022-03-31T07:50:08+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:50:08+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:50:08+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:50:08+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:50:08+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:50:08+00:00][error] DESCRIBE `components`
+[2022-03-31T07:50:08+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:50:13+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'roles' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:50:13+00:00][error] DESCRIBE `roles`
+[2022-03-31T07:50:13+00:00][error] SELECT `roles`.`role_id`, `roles`.`role` FROM `roles`
+[2022-03-31T07:50:13+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'components' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:50:13+00:00][error] DESCRIBE `components`
+[2022-03-31T07:50:13+00:00][error] SELECT `components`.`id`, `components`.`component` FROM `components`
+[2022-03-31T07:50:16+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'permissions' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:50:16+00:00][error] DESCRIBE `permissions`
+[2022-03-31T07:50:16+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions` WHERE ((`permissions`.`role` = :role) AND (`permissions`.`component` = :component)) AND (`permissions`.`action` = :action)
+[2022-03-31T07:50:16+00:00][error] INSERT INTO `permissions` (`role`, `component`, `action`) VALUES (?, ?, ?)
+[2022-03-31T07:50:16+00:00][error] SELECT `permissions`.`id`, `permissions`.`role`, `permissions`.`component`, `permissions`.`action` FROM `permissions`
+[2022-03-31T07:50:20+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:50:20+00:00][error] DESCRIBE `products`
+[2022-03-31T07:50:20+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:50:48+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:50:48+00:00][error] DESCRIBE `products`
+[2022-03-31T07:50:48+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:51:42+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:51:42+00:00][error] DESCRIBE `products`
+[2022-03-31T07:51:42+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`
+[2022-03-31T07:51:47+00:00][error] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'products' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-31T07:51:47+00:00][error] DESCRIBE `products`
+[2022-03-31T07:51:47+00:00][error] SELECT `products`.`product_id`, `products`.`product_name`, `products`.`description`, `products`.`tags`, `products`.`price`, `products`.`stocks` FROM `products`

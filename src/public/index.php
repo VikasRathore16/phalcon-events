@@ -105,7 +105,6 @@ $container->set(
 );
 
 
-
 //Event Mangement -----------------------------------------start ------------------------------------------------------
 
 $eventsManager = new EventsManager();
@@ -155,16 +154,10 @@ $container->set(
     $eventsManager,
 );
 
-
 //Event Mangement -----------------------------------------ends ------------------------------------------------------
-
-
-
-
 
 $application = new Application($container);
 $application->setEventsManager($eventsManager);
-
 
 //container ------------------------------------------------ends ------------------------------------------------------
 

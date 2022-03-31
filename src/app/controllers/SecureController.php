@@ -15,21 +15,18 @@ class SecureController extends Controller
         if (true !== is_file($aclFile)) {
             $acl = new Memory();
 
-            $acl->addRole('manager');
-            $acl->addRole('accounting');
-            $acl->addRole('guest');
+            $acl->addRole('admin');
+
 
             $acl->addComponent(
                 'index',
                 [
                     'index',
-                    'users',
-                    'view',
                 ]
             );
 
-            $acl->allow('manager', 'index', '*');
-            $acl->deny('guest', '*', '*');
+            $acl->allow('admin', '*', '*');
+            // $acl->deny('guest', '*', '*');
 
             file_put_contents(
                 $aclFile,

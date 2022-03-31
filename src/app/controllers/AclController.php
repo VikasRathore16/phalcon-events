@@ -19,8 +19,11 @@ class AclController extends Controller
 
         if (true === $request->isPost()) {
             $newrole = new Roles();
+            $rollarr = array(
+                'role' => $request->getPost('roles'),
+            );
             $newrole->assign(
-                $request->getPost(),
+                $rollarr,
                 [
                     'role'
                 ]
@@ -41,7 +44,7 @@ class AclController extends Controller
         $controllers = array();
         foreach ($files as $key => $value) {
             $explode  = explode('Controller', $value);
-            array_push($controllers, $explode[0]);
+            array_push($controllers, strtolower($explode[0]));
         }
         $this->view->controllers = array_diff($controllers, array('.', '..')); // explode('Controller', $files[0]);
 
@@ -61,27 +64,44 @@ class AclController extends Controller
 
     public function allowAction()
     {
+        $this->response->setHeader('Access-Control-Allow-Origin', '*');
 
         $this->view->roles = Roles::find();
         $this->view->components  = Components::find();
         if ($this->request->isPost('action')) {
-
             $controller   = $this->request->getPost('controller');
-            $class_methods = get_class_methods($controller . 'Controller');
-            echo json_encode($class_methods);
+            $controller = strtolower($controller);
+            $dir    = APP_PATH . '/views/' . $controller;
+            $files = scandir($dir, 1);
+            $actions = array();
+            foreach ($files as $key => $value) {
+                $explode  = explode('.phtml', $value);
+                array_push($actions, $explode[0]);
+            }
+            $actions = array_diff($actions, array('.', '..'));
+            // $class_methods = get_class_methods($controller . 'Controller');
+            echo json_encode($actions);
             die;
         }
     }
 
     public function dataAction()
     {
+        // die($this->request->getPost('role'));
         $request = new Request();
         print_r($request->getPost());
 
         if ($request->isPost()) {
-            $role = $request->getPost('role');
+            $role = $request->getPost('roles');
+            // print_r($role);
+            // die;
             $component  = $request->getPost('component');
             $action  = $request->getPost('action');
+            $arr = array(
+                'role' => $role,
+                'component' => $component,
+                'action' => $action,
+            );
             $this->view->allow = $request->getPost();
             $permission = Permissions::query()
                 ->where("role = :role:")
@@ -100,7 +120,7 @@ class AclController extends Controller
             if (count($permission) < 1) {
                 $permission = new Permissions();
                 $permission->assign(
-                    $request->getPost(),
+                    $arr,
                     [
                         'role',
                         'component',
@@ -109,19 +129,23 @@ class AclController extends Controller
                 );
 
                 $success = $permission->save();
+                // echo $success;
+                // die;
                 $aclFile = APP_PATH . '/security/acl.cache';
                 print_r($aclFile);
                 if ($success) {
                     print_r('success');
-                    if (true !== is_file($aclFile)) {
+                    if (true === is_file($aclFile)) {
                         print_r('success');
                         $acl = new Memory();
+                        // $acl = unserialize(file_get_contents($aclFile));
                         $permissions = Permissions::find();
                         // print_r($permissions[0]->role);
                         foreach ($permissions as $permission) {
                             // print_r($permission->role);
                             $acl->addRole($permission->role);
                             if ($permission->action == "*") {
+                                $acl->allow('admin', '*', "*");
                                 continue;
                             }
                             $acl->addComponent(
@@ -130,7 +154,7 @@ class AclController extends Controller
                             );
                             $acl->allow($permission->role, $permission->component, $permission->action);
                         }
-                        $acl->allow('admin', '*', "*");
+
                         file_put_contents(
                             $aclFile,
                             serialize($acl)
